@@ -24,3 +24,41 @@ git commit -m "ajout du fichier mobile'
 
 git push origin mobile
 
+git add noamaouche.txt
+
+git commit -m "mise à jour des commandes de noa"
+
+git push origin commandes
+
+git checkout css
+
+cd css1
+
+nano style.css
+
+cd ..
+
+git add css/style.css
+
+git commit -m "mise a jour du fichier css par noa"
+
+git push origin css
+
+git checkout main 
+
+git pull
+
+git branch
+
+git merge mobile
+
+git push origin main 
+
+git checkout commandes
+
+git add noamaouche.txt
+
+git commit -m "mise à jour des commandes de noa"
+
+git push origin commandes
+
