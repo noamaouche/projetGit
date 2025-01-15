@@ -1,0 +1,27 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    
+    main {
+      padding: 20px;
+    }
+
+    h1 {
+      color: #4CAF50;
+    }
+
+    p {
+      line-height: 1.6;
+    }
