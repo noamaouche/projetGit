@@ -1,0 +1,85 @@
+git clone https://github.com/noamaouche/projetGit.git 
+
+Cd projetGit
+
+git init
+
+ls -a
+
+git checkout -b html
+
+git branch
+
+mkdir html 
+
+touch html/index.html
+
+cd html
+
+nano index.html
+
+cd ..
+
+git add html/index.html
+
+git commit -m "envoie du fichier html"
+
+git config user.email "gumusdilan@icloud.com"
+
+git config user.name "Coladaexe"
+
+git add html/index.html
+
+git commit -m "nouvelle essaie du fichier html"
+
+git push origin html 
+
+
+
+Modification des fichier des autre branche :  
+
+git fetch origin
+
+git checkout mobile
+
+git branch
+
+nano mobile.css
+
+git add mobile.css
+
+git commit -m "Modification du fichier mobile"
+
+git push origin mobile
+
+
+
+Envoie de monfichier index vers le main 
+
+git checkout main 
+
+git merge html
+
+git push origin main 
+
+
+envoie de moon fichier txt avec les commande : ( n'a pas foonctionner )  
+
+git checkout commandes
+
+git branch
+
+nano gumusdilan
+
+git add gumusdilan
+
+git commit -m "envoie du fichier txt commandes"
+
+git config user.email "gumusdilan@icloud.com"
+
+git config user.name "Coladaexe"
+
+git push origine commandes.txt
+
+
+
