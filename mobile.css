@@ -19,6 +19,8 @@
         width: 90%;
         margin: 2% 5%;
     }
-
-
+	footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
 }
