@@ -1,13 +1,13 @@
     body {
       margin: 0;
       font-family: 'Roboto', Arial, sans-serif;
-      background-color: #f9f9f9;
+      background-color: red;
       color: #333;
     }
 
     
     header {
-      background-color: #4CAF50;
+      background-color: green;
       color: white;
       padding: 15px 20px;
       text-align: center;
@@ -15,7 +15,13 @@
       font-weight: bold;
     }
 
-    
+    footer{
+	background-color: blue;
+	color: black;
+	padding:auto;
+	text-align:center;
+    }
+
     main {
       display: flex;
       flex-direction: column;
