@@ -1,3 +1,26 @@
 git clone https://github.com/noamaouche/projetGit
 
+git init
+
+git checkout -b commandes
+
+git config user.email "noa.maouche@efrei.net"
+
+git config user.name "naomaouche"
+
+git add noamaouche.txt
+
+git commit -m "commit du fichier de rendu des commandes de noa maouche"
+
+git push origin commandes
+
+git checkout -b mobile
+
+nano mobile.css
+
+git add mobile.css
+
+git commit -m "ajout du fichier mobile'
+
+git push origin mobile
 
