@@ -1,0 +1,24 @@
+@media screen and (max-width:600px){ /* attention aux espaces */
+
+    /* début une nouvelle feuille de css */
+    nav,
+    main,
+    aside{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    .affichage{
+        display: block;
+    }
+    #mobile{
+        display: block;
+    }
+    main img{
+        width: 90%;
+        margin: 2% 5%;
+    }
+
+
+}
